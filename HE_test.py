@@ -1,4 +1,4 @@
-from HE_ex import *
+from HE_sol import *
 from random import randint
 
 
