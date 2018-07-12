@@ -1,4 +1,4 @@
-from HE_sol import *
+from HE_ex import *
 from random import randint
 
 
@@ -23,7 +23,7 @@ def test_EncDec(N):
         mu2 = Dec(s, c)
         print "Dec( Enc(%d) ) = %d"%(mu, mu2)
 
-        if mu != mu:
+        if mu != mu2:
             raise ValueError("Le dechiffrement n'est pas correcte.")
 
     print "SUCCESS !"
